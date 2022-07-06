@@ -1,0 +1,52 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+
+.white-color{
+    color: white;
+    
+}
+.word-center{
+    text-align: center;
+
+
+}
+
+
+.cover-image{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url(images/donation5.jpg);
+   
+   
+}
+
+.link-button{
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: tomato;
+    border-radius: 5px;
+    background-image: linear-gradient(orange tomato);
+    font-weight:700;
+    color: white;
+     
+}
+.flexibale-container{
+    display: flex;
+   
+}
+
+
+
+.amaont-baton{
+    text-align: center;
+    padding: 22px;
+    border:  10px 10px 10px 10px;
+    background-color: wheat;
+    text-align: center;
+    margin-left: 10px;
+}
