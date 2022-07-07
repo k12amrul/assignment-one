@@ -1,12 +1,16 @@
 body{
+    font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    font-family: 'Roboto', sans-serif;
 
 }
-
+#text-size{
+    font-size:50px;
+}
 
 .white-color{
     color: white;
+    text-align: center;
     
 }
 .word-center{
@@ -18,35 +22,110 @@ body{
 
 .cover-image{
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-repeat: no-repeat;
     background-image: url(images/donation5.jpg);
    
    
 }
-
-.link-button{
+.text-center{
+    text-align: center;
+}
+.center-button{
+    
     text-decoration: none;
     padding: 5px 20px;
+    width: 66px;
+    height: 33px;
+    margin-left: 500px;
     background-color: tomato;
     border-radius: 5px;
     background-image: linear-gradient(orange tomato);
     font-weight:700;
     color: white;
-     
+    justify-content: center;
 }
+#hr{
+   
+    
+}
+.hr{
+   text-align: center;
+   
+   
+}
+
+
 .flexibale-container{
     display: flex;
    
 }
 
 
+.amaont{
+    margin-left:250px ;
+   
+    
+}
+
 
 .amaont-baton{
-    text-align: center;
-    padding: 22px;
-    border:  10px 10px 10px 10px;
+   width: 90px;
+   height: 30px;
+    padding: 12px;
+    border:5px 5px ;
     background-color: wheat;
-    text-align: center;
+    align-items: center;
     margin-left: 10px;
+    ;
+    
+}
+
+#red{
+      background-color: rgba(225, 161, 161, 0.703); 
+      border: 1px solid red; 
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.card{
+   
+    width: 33%;
+    padding: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color:rgb(234, 229, 201);
+   
+
+}
+.section-four{
+    display: flex;
+    margin-top: 77px;
+    margin-left: 199px;
+    margin-right: 199px;
+}
+.fab{
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+   padding-top: 10px;
+    text-align: center;
+    margin-top: 70px;
+    
+   
+    
+}
+#mar{
+    margin-top: 40px;
+}
+
+#mar2{
+    margin-bottom: 50px;
+}
+.email{
+    width: 60%;
+    height: 80px;
+    background-color: antiquewhite;
+    
 }
